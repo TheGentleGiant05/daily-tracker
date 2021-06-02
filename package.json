@@ -1,0 +1,11 @@
+{
+  "name": "daily-tracker",
+  "version": "1.0.0",
+  "description": "React.js app to track daily habits.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
