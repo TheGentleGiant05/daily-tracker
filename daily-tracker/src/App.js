@@ -5,8 +5,6 @@ const App = () => {
   const [item, setItem] = useState("");
   const [items, setItems] = useState([]);
 
-  const firebaseApp = firebase.apps[0];
-
   const handleSubmit = (e) => {
     e.preventDefault();
     if (item) {
@@ -36,9 +34,6 @@ const App = () => {
           Add New
         </button>
       </form>
-      <code>
-        <pre>{JSON.stringify(firebaseApp.options, null, 2)}</pre>
-      </code>
       {items.map((newItem) => {
         const { id, item } = newItem;
         return (
