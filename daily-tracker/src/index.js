@@ -4,6 +4,8 @@ import App from "./app";
 import "./index.css";
 import firebase from "firebase/app";
 
+const dbRef = require("firebase/database");
+
 firebase.initializeApp({
   apiKey: "AIzaSyB6s3v9pfOCr_SdJ1_4mEKKpSK3Tu0p3ek",
   authDomain: "daily-tracker-20dfe.firebaseapp.com",
